@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.977d6ad2.css",
-    "main.js": "/static/js/main.49968afd.js",
+    "main.css": "/static/css/main.910f615b.css",
+    "main.js": "/static/js/main.37491a1c.js",
     "static/js/845.0a70cfde.chunk.js": "/static/js/845.0a70cfde.chunk.js",
     "static/media/audio.mp3": "/static/media/audio.c7c0c841bd0b7c95e268.mp3",
+    "static/media/design.png": "/static/media/design.c2b30edf2155c615df1e.png",
     "static/media/browser.png": "/static/media/browser.e36199bbdb817a8b2ea6.png",
+    "static/media/folder.png": "/static/media/folder.17783efe19820252cad6.png",
+    "static/media/fichier.png": "/static/media/fichier.a739bb00216c75bae319.png",
     "static/media/picture.png": "/static/media/picture.6d5c183e4cc8d68d408e.png",
     "static/media/pdf.png": "/static/media/pdf.4454ed76a7428c61a333.png",
     "static/media/music.png": "/static/media/music.795e5f7fffb630eac911.png",
+    "static/media/code.png": "/static/media/code.1eb3c2fb9f850718d418.png",
     "static/media/pic.jpg": "/static/media/pic.bac20ae65e65a21683cb.jpg",
     "static/media/design3.png": "/static/media/design3.5b5dd48ee9e83ed3b904.png",
     "static/media/design2.png": "/static/media/design2.9e4672942886823e43c9.png",
     "static/media/design1.png": "/static/media/design1.0e8a02e7c87384816ebe.png",
+    "static/media/thumbnail1.png": "/static/media/thumbnail1.40358daeb7a8cc9823a8.png",
     "static/media/title.png": "/static/media/title.c235a3e83ce0b5825ebb.png",
     "index.html": "/index.html",
-    "main.977d6ad2.css.map": "/static/css/main.977d6ad2.css.map",
-    "main.49968afd.js.map": "/static/js/main.49968afd.js.map",
+    "main.910f615b.css.map": "/static/css/main.910f615b.css.map",
+    "main.37491a1c.js.map": "/static/js/main.37491a1c.js.map",
     "845.0a70cfde.chunk.js.map": "/static/js/845.0a70cfde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.977d6ad2.css",
-    "static/js/main.49968afd.js"
+    "static/css/main.910f615b.css",
+    "static/js/main.37491a1c.js"
   ]
 }
