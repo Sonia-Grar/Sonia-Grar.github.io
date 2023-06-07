@@ -24,8 +24,8 @@ function ExpPro({ hidden, onChangeHidden }) {
             <div id="handle" className="ExpPro-inter-back1-top">
               <div className='ExpPro-inter-buttons'>
                 <div className='ExpPro-inter-buttons-red'   onClick={handleclose2} ></div>
-                <div className='ExpPro-inter-buttons-yellow' ></div>
-                <div className='ExpPro-inter-buttons-green'></div>
+                <div className='ExpPro-inter-buttons-yellow' onClick={handleclose2}></div>
+                <div className='ExpPro-inter-buttons-green'onClick={handleclose2}></div>
               </div>
               <p className="ExpPro-inter-top-text" >Expérience-Professionnelle.txt</p>
             </div>

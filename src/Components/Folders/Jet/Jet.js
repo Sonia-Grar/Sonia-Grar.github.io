@@ -31,8 +31,8 @@ function Orenda({ hidden, onChangeHidden3}) {
               <div id="handle" className="Jet-inter-back1-top">
               <div className='Jet-inter-buttons'>
                   <div className='Jet-inter-buttons-red'   onClick={handleclose2}></div>
-                  <div className='Jet-inter-buttons-yellow'></div>
-                  <div className='Jet-inter-buttons-green' ></div>
+                  <div className='Jet-inter-buttons-yellow'  onClick={handleclose2}></div>
+                  <div className='Jet-inter-buttons-green'  onClick={handleclose2}></div>
               </div>
               <p className="Jet-inter-top-text" > Junior Entreprises Tunisie </p>
               </div>

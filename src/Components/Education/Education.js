@@ -35,8 +35,8 @@ function Education() {
             <div id="handle" className="Education-inter-back1-top">
             <div className='Education-inter-buttons'>
                 <div className='Education-inter-buttons-red'  onClick={handleclose} ></div>
-                <div className='Education-inter-buttons-yellow'></div>
-                <div className='Education-inter-buttons-green'></div>
+                <div className='Education-inter-buttons-yellow' onClick={handleclose} ></div>
+                <div className='Education-inter-buttons-green' onClick={handleclose} ></div>
             </div>
             <p className="Education-inter-top-text" >Education.txt</p>
             </div>

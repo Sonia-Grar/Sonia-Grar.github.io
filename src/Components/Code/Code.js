@@ -36,8 +36,8 @@ function Code() {
           <div id="handle" className="code-inter-back1-top">
             <div className='code-inter-buttons'>
               <div className='code-inter-buttons-red' onClick={handleclose}></div>
-              <div className='code-inter-buttons-yellow'></div>
-              <div className='code-inter-buttons-green'></div>
+              <div className='code-inter-buttons-yellow'  onClick={handleclose} ></div>
+              <div className='code-inter-buttons-green' onClick={handleclose} ></div>
             </div>
             <p className="code-inter-top-text" >Programmation.html</p>
           </div>

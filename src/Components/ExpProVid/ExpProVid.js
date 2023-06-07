@@ -27,8 +27,8 @@ function ExpProVid({ hidden, onChangeHidden3 }) {
             <div id="handle" className="ExpProVid-inter-back1-top">
               <div className='ExpProVid-inter-buttons'>
                 <div className='ExpProVid-inter-buttons-red'   onClick={handleclose2} ></div>
-                <div className='ExpProVid-inter-buttons-yellow' ></div>
-                <div className='ExpProVid-inter-buttons-green'></div>
+                <div className='ExpProVid-inter-buttons-yellow' onClick={handleclose2} ></div>
+                <div className='ExpProVid-inter-buttons-green'  onClick={handleclose2}></div>
               </div>
             </div>
             <div className="ExpProVid-inter-back1-bottom">

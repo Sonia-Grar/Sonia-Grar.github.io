@@ -37,8 +37,8 @@ function Picture() {
               <div id="handle" className="Picture-inter-back1-top">
               <div className='Picture-inter-buttons'>
                   <div className='Picture-inter-buttons-red'   onClick={handleclose}></div>
-                  <div className='Picture-inter-buttons-yellow'></div>
-                  <div className='Picture-inter-buttons-green' ></div>
+                  <div className='Picture-inter-buttons-yellow'   onClick={handleclose}></div>
+                  <div className='Picture-inter-buttons-green'   onClick={handleclose} ></div>
               </div>
               <p className="Picture-inter-top-text" >Image.jpg</p>
               </div>

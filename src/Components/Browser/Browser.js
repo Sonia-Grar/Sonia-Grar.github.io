@@ -42,8 +42,8 @@ function Browser() {
               </div>
               <div className='browser-buttons'>
                 <div className='browser-buttons-red' onClick={handleclose}></div>
-                <div className='browser-buttons-yellow' ></div>
-                <div className='browser-buttons-green'  ></div>
+                <div className='browser-buttons-yellow' onClick={handleclose}></div>
+                <div className='browser-buttons-green'  onClick={handleclose}></div>
               </div>
             </span>
             <div className="res-nav-back1-bottom">

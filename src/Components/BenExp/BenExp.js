@@ -35,8 +35,8 @@ function BenExp() {
         <div id="handle" className="ExpBen-inter-back1-top">
           <div className='ExpBen-inter-buttons'>
             <div className='ExpBen-inter-buttons-red'   onClick={handleclose}></div>
-            <div className='ExpBen-inter-buttons-yellow' ></div>
-            <div className='ExpBen-inter-buttons-green'></div>
+            <div className='ExpBen-inter-buttons-yellow' onClick={handleclose} ></div>
+            <div className='ExpBen-inter-buttons-green'  onClick={handleclose}></div>
           </div>
           <p className="ExpBen-inter-top-text" >Expérience-Bénévole.txt</p>
         </div>

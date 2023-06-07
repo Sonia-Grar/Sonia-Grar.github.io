@@ -53,8 +53,8 @@ function ExpFolder() {
                 <div id="handle" className="ExpFolder-inter-back1-top">
                   <div className='ExpFolder-inter-buttons'>
                       <div className='ExpFolder-inter-buttons-red'  onClick={handleclose} ></div>
-                      <div className='ExpFolder-inter-buttons-yellow'></div>
-                      <div className='ExpFolder-inter-buttons-green'></div>
+                      <div className='ExpFolder-inter-buttons-yellow' onClick={handleclose}></div>
+                      <div className='ExpFolder-inter-buttons-green'onClick={handleclose}></div>
                   </div>
                   <p className="ExpFolder-inter-top-text" >Projets</p>
                 </div>

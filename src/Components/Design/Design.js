@@ -39,8 +39,8 @@ function Design() {
           <div id="handle" className="des-inter-back1-top">
             <div className='des-inter-buttons'>
               <div className='des-inter-buttons-red'  onClick={handleclose} ></div>
-              <div className='des-inter-buttons-yellow'></div>
-              <div className='des-inter-buttons-green'></div>
+              <div className='des-inter-buttons-yellow'  onClick={handleclose} ></div>
+              <div className='des-inter-buttons-green' onClick={handleclose} ></div>
             </div>
             <p className="des-inter-top-text" >Design.ai</p>
           </div>
