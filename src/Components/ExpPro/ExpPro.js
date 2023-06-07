@@ -11,15 +11,16 @@ function ExpPro({ hidden, onChangeHidden }) {
     const handleZ=(event)=>{ 
       let z = localStorage.getItem('zindex');
       z++;
-      document.getElementById("exppro-element").setAttribute('style', `z-index: ${z}`);
+      //document.getElementById("exppro-element").setAttribute('style', `z-index: ${z}`);
+      document.getElementsByClassName("ExpPro-inter-container")[0].setAttribute('style', `z-index: ${z}`);
       localStorage.setItem('zindex', z)
   }
 
   return (
     <div className="">
-      <div className="ExpPro-page-container"  hidden={hidden} id="exppro-element" onClick={(event)=>handleZ(event)} >
+      <div className="ExpPro-page-container" hidden={hidden} id="exppro-element" onClick={(event)=>handleZ(event)} >
         <Draggable  handle="#handle" >
-        <div className="ExpPro-inter-container">
+        <div className="ExpPro-inter-container" style={{zIndex: "80"}}>
             <div id="handle" className="ExpPro-inter-back1-top">
               <div className='ExpPro-inter-buttons'>
                 <div className='ExpPro-inter-buttons-red'   onClick={handleclose2} ></div>
