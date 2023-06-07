@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.284e8668.css",
-    "main.js": "/static/js/main.79011804.js",
+    "main.js": "/static/js/main.22ab89d6.js",
     "static/js/845.90fc34b9.chunk.js": "/static/js/845.90fc34b9.chunk.js",
     "static/media/orenda5.jpg": "/static/media/orenda5.23140ce5f8920e23345c.jpg",
     "static/media/orenda2.jpg": "/static/media/orenda2.3a127e58c8f26150af47.jpg",
@@ -36,11 +36,11 @@
     "static/media/title.png": "/static/media/title.c235a3e83ce0b5825ebb.png",
     "index.html": "/index.html",
     "main.284e8668.css.map": "/static/css/main.284e8668.css.map",
-    "main.79011804.js.map": "/static/js/main.79011804.js.map",
+    "main.22ab89d6.js.map": "/static/js/main.22ab89d6.js.map",
     "845.90fc34b9.chunk.js.map": "/static/js/845.90fc34b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.284e8668.css",
-    "static/js/main.79011804.js"
+    "static/js/main.22ab89d6.js"
   ]
 }
