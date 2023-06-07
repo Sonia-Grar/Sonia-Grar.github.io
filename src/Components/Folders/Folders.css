@@ -1,0 +1,23 @@
+
+.Folder-inter-container{
+  width: 15vw;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Folder-inter-container-item1{
+  width: 25%;
+  height: 45%;
+  cursor: pointer;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+.Folder-inter-container-item1:hover{
+  background-color: rgb(255, 255, 255);
+}
+.folder-icon{
+  width: 100%;
+}

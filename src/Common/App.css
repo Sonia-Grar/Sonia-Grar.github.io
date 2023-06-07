@@ -1,0 +1,61 @@
+.Menu-page-container{
+  width: 0vw;
+  height: 0;
+}
+
+.Menu-page-container-top{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Menu-page-container-top-item1{
+  height: 60%;
+}
+.Menu-page-container-bottom{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content:center;
+
+}
+.Menu-inter-container{
+  width: 30%;
+  height: 7vh;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: row;
+}
+
+.Menu-inter-container-item{
+  width: 75%;
+  box-sizing: border-box; 
+  padding: 2%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+.desktop-img{
+  width:100%;
+}
+.desktop-text{
+  font-size: 0.8em;
+  text-align: center;
+
+}
+.Menu-inter-container-item:hover{
+  transform: scale(1.3);
+}
+
+.Menu-inter-container-item-clicked{
+background-color: rgb(245, 245, 245);
+
+}
+.dock-icon {
+  /* ... autres styles ... */
+  transition: transform 0.2s;
+}
+
+.dock-icon.hovered-neighbour {
+  transform: scale(1.15);
+}

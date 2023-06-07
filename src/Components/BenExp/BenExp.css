@@ -1,0 +1,162 @@
+
+  .ExpBen-page-container{
+    width: 0;
+    height: 0;
+    position: relative;
+  }
+  .ExpBen-inter-container1{
+    width: 25vw;
+    height: 47vh;
+    position: absolute;
+    top: -420px;
+    left: 60px;
+    border-radius: 20px;
+  }
+  .ExpBen-inter-container2{
+    width: 25vw;
+    height: 45vh;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #b8b7b7;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: windowOpenAnimation 1s forwards;  
+    }
+    @keyframes windowOpenAnimation {
+      from {
+        opacity: 0;
+        transform: scale(0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .ExpBen-inter-back1-top{
+      width: 98.7%;
+      height: 12%;
+      background-color: #bfbfbf;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      cursor: move;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .ExpBen-inter-top-text{
+      font-size: 0.9em;
+      width:51%;
+    }
+    
+    .ExpBen-inter-buttons{
+      width: 3.5vw;
+      height: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .ExpBen-inter-buttons-red{
+      width: 0.9vw;
+      height: 0.9vw;
+      cursor: pointer;
+      border-radius: 100%;
+      background-color: #fb636c;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .ExpBen-inter-buttons-yellow{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #F8D775;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .ExpBen-inter-buttons-green{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #69a86d;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .ExpBen-inter-buttons-red:hover{
+      opacity: 0.5;
+    }
+    .ExpBen-inter-buttons-yellow:hover{
+      opacity: 0.5;
+    }
+    .ExpBen-inter-buttons-green:hover{
+      opacity: 0.5;
+    }
+    .ExpBen-inter-back1-bottom{
+      width: 98.7%;
+      height: 88%;
+      background-color: #ffffff;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center ;
+    }
+    .ExpBen-inter-back1-bottom-item{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 2%;
+    
+    }
+    .ExpBen-inter-back1-bottom-item1{
+      margin-top: 2%;
+      width: 90%;
+    }
+    .ExpBen-inter-back1-bottom-item2{
+      width: 90%;
+    }
+    
+    .ExpBen-inter-back1-bottom-item1-year{
+      width: 80%;
+      height: 50%;
+      font-weight: 400;
+      font-size: 0.82em;
+    }
+    .ExpBen-inter-back1-bottom-item1-title{
+      text-align: justify;
+      font-weight: 500;
+      font-size: 0.95em;
+      margin-bottom: 3%;
+    }
+    .ExpBen-inter-back1-bottom-item1-text1{
+      font-weight: 400;
+      font-size: 0.95em;
+    }

@@ -1,0 +1,149 @@
+.Jet-page-container{
+    
+    position: relative;
+  }
+
+  .Jet-nav-container{
+      top:  -230px;
+      left: -480px;
+      position: absolute;
+      width: 24vw;
+      height: 30vh;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: #b8b7b7;
+      box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+    }
+
+    .Jet-inter-back1-top{
+      width: 99.3%;
+      height: 35%;
+      background-color: #bfbfbf;
+      border-top-right-radius: 18px;
+      border-top-left-radius: 18px;
+      cursor: move;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .Jet-inter-top-text{
+        font-size: 0.9em;
+        width: 58%;
+    }
+    
+    .Jet-inter-buttons{
+      width: 3.5vw;
+      height: 100%;
+      margin-left: 2.5%;
+      margin-right: 5%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .Jet-inter-buttons-red{
+      width: 0.9vw;
+      height: 0.9vw;
+      cursor: pointer;
+      border-radius: 100%;
+      background-color: #fb636c;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Jet-inter-buttons-yellow{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #F8D775;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Jet-inter-buttons-green{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #69a86d;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Jet-inter-buttons-red:hover{
+      opacity: 0.5;
+    }
+    .Jet-inter-buttons-yellow:hover{
+      opacity: 0.5;
+    }
+    .Jet-inter-buttons-green:hover{
+      opacity: 0.5;
+    }
+    .Jet-inter-back1-bottom{
+      width: 99.3%;
+      height: 89%;
+      background-color: #ffffff;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      overflow-y: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25%;
+    }
+
+  .galerie2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 95%;
+      max-width: 1300px;
+      /* background: crimson; */
+  }
+  .item2 {
+      width: 43%;
+      height: 30%;
+      margin: 10px;
+      overflow: hidden;
+      flex-shrink: 0;
+  }
+  .item2 img {
+      width: 100%;
+      height: auto;
+  }
+
+.Jet-inter-back1-bottom::-webkit-scrollbar {
+  width: 10px;
+}
+
+.Jet-inter-back1-bottom::-webkit-scrollbar-track {
+  background: rgb(215, 215, 215);
+}
+
+.Jet-inter-back1-bottom::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: rgb(162, 162, 162);
+  box-shadow: inset 2px 2px 5px 0 rgba(255, 255, 255, 0.5);
+}

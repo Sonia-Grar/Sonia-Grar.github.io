@@ -1,0 +1,139 @@
+.Picture-page-container{
+    
+    position: relative;
+  }
+  .Picture-inter-container1{
+    position: absolute;
+    width: 13vw;
+    height: 27vh;
+    border-radius: 18px;
+  }
+  
+  .Picture-nav-container2{
+      position: absolute;
+      top: -700px;
+      left: 90px;
+      width: 13vw;
+      height: 27vh;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: #b8b7b7;
+      box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      animation: windowOpenAnimation 1s forwards;
+    }
+    
+    
+    @keyframes windowOpenAnimation {
+      from {
+        opacity: 0;
+        transform: scale(0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .Picture-inter-back1-top{
+      width: 98.7%;
+      height: 18%;
+      background-color: #bfbfbf;
+      border-top-right-radius: 18px;
+      border-top-left-radius: 18px;
+      cursor: move;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .Picture-inter-top-text{
+        font-size: 0.9em;
+        width: 43%;
+    }
+    
+    .Picture-inter-buttons{
+      width: 3.5vw;
+      height: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .Picture-inter-buttons-red{
+      width: 0.9vw;
+      height: 0.9vw;
+      cursor: pointer;
+      border-radius: 100%;
+      background-color: #fb636c;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Picture-inter-buttons-yellow{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #F8D775;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Picture-inter-buttons-green{
+      width: 0.9vw;
+      height: 0.9vw;
+      border-radius: 100%;
+      cursor: pointer;
+      background-color: #69a86d;
+      box-shadow: inset 3px -3px 5px rgb(0,0,0,0.1),
+      inset -3px 3px 5px rgba(255, 255, 255, 0.1),
+      0 1px 1px hsl(0deg 0% 0% / 0.045),
+      0 2px 2px hsl(0deg 0% 0% / 0.045),
+      0 4px 4px hsl(0deg 0% 0% / 0.045),
+      0 8px 8px hsl(0deg 0% 0% / 0.045),
+      0 16px 16px hsl(0deg 0% 0% / 0.045);
+    }
+    .Picture-inter-buttons-red:hover{
+      opacity: 0.5;
+    }
+    .Picture-inter-buttons-yellow:hover{
+      opacity: 0.5;
+    }
+    .Picture-inter-buttons-green:hover{
+      opacity: 0.5;
+    }
+    .Picture-inter-back1-bottom{
+      width: 98.7%;
+      height: 82%;
+      background-color: #ffffff;
+      border-bottom-right-radius: 18px;
+      border-bottom-left-radius: 18px;
+      background-image: url('../../Assets/pic.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+    }
+    .Menu-inter-container-item-clicked{
+      background-color: rgb(245, 245, 245);
+    
+    }
+    
