@@ -13,7 +13,9 @@ function ExpProVid({ hidden, onChangeHidden3 }) {
     const handleZ=(event)=>{ 
       let z = localStorage.getItem('zindex');
       z++;
-      document.getElementById("ExpProVid-element").setAttribute('style', `z-index: ${z}`);
+      //document.getElementById("ExpProVid-element").setAttribute('style', `z-index: ${z}`);
+      document.getElementsByClassName("ExpProVid-inter-container")[0].setAttribute('style', `z-index: ${z}`);
+
       localStorage.setItem('zindex', z)
   }
 
@@ -21,7 +23,7 @@ function ExpProVid({ hidden, onChangeHidden3 }) {
     <div className="">
       <div className="ExpProVid-page-container"  hidden={hidden} id="ExpProVid-element" onClick={(event)=>handleZ(event)} >
         <Draggable  handle="#handle" >
-        <div className="ExpProVid-inter-container">
+        <div className="ExpProVid-inter-container" style={{zIndex: 60}}>
             <div id="handle" className="ExpProVid-inter-back1-top">
               <div className='ExpProVid-inter-buttons'>
                 <div className='ExpProVid-inter-buttons-red'   onClick={handleclose2} ></div>

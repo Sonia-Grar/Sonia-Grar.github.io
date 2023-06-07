@@ -25,7 +25,7 @@ function Orenda({ hidden, onChangeHidden3}) {
 
   return (
     <div className="">
-      <div className="Jet-page-container" hidden={hidden}  id="jet-element" onClick={(event)=>handleZ(event)}>
+      <div className="Jet-page-container" hidden={hidden} style={{'zIndex': 60}}  id="jet-element" onClick={(event)=>handleZ(event)}>
       <Draggable  handle="#handle">
         <div className="Jet-nav-container" >
               <div id="handle" className="Jet-inter-back1-top">
