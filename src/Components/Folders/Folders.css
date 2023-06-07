@@ -15,9 +15,18 @@
   padding-right: 2%;
 
 }
-.Folder-inter-container-item1:hover{
+.Folder-inter-container-item1:hover, .download-icon:hover {
   background-color: rgb(255, 255, 255);
 }
+
+.download-icon {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  width: 60px;
+  cursor: pointer;
+}
+
 .folder-icon{
   width: 100%;
 }

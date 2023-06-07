@@ -37,7 +37,6 @@ export default function App() {
         <Education />
         <BenExp />
         <Music />
-        <Download />
         </div>
       </div>
       
