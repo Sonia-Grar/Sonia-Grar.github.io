@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Draggable from 'react-draggable';
 import './Folders.css';
 import folder1 from '../../Assets/folder1.png';
-import resumeIcon from '../../Assets/resume_icon.png';
+import pdf from '../../Assets/pdf.png';
 import Orenda from "../Folders/Orenda/Orenda";
 import Jet from "../Folders/Jet/Jet";
 
@@ -43,9 +43,9 @@ function ExpFolder() {
             <img src={folder1} alt="google"   className="folder-icon"/> 
             <p className="desktop-text">JET</p>       
           </div>
-          <div style={{position: "absolute", top: "70%", left: "45%", width: "60px", cursor: "pointer"}} onClick={handleopen3} className="download-icon">           
-            <img src={resumeIcon} alt="pdf" className="folder-icon"/> 
-            <p className="desktop-text">CV</p>       
+          <div style={{position: "absolute", top: "68%", left: "48.5%", width: "45px", cursor: "pointer"}} onClick={handleopen3} className="download-icon">           
+            <img src={pdf} alt="pdf" className="folder-icon"/> 
+            <p className="desktop-text">CV.pdf</p>       
           </div>          
         </div>
         <Orenda hidden={hidden3} onChangeHidden2={setHidden3} />

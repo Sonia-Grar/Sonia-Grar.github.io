@@ -19,13 +19,19 @@
   display: flex;
   justify-content:center;
 
+
 }
 .Menu-inter-container{
   width: 30%;
   height: 7vh;
+  justify-content: space-around;
   box-sizing: border-box; 
   display: flex;
   flex-direction: row;
+  background: rgba(255,255,255,0.4);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .Menu-inter-container-item{
