@@ -27,18 +27,14 @@
   box-sizing: border-box; 
   display: flex;
   padding: 1%;
-  padding-left: 1.9%;
+  padding-left: 1.7%;
   padding-top: 0.25%;
   flex-direction: row;
   background: rgba(255,255,255,0.45);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
   border: 1px solid rgba(255,255,255,0.225);
   border-radius: 10px;
 }
-.Menu-inter-container:hover{
-  width: 33%;
-}
+
 
 .Menu-inter-container-item{
   width: 75%;
