@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Draggable from 'react-draggable';
 import './ExpProVid.css';
-import video from  '../../Common/video.mp4';
+// import video from  '../../Common/video.mp4';
 
 
 function ExpProVid({ hidden, onChangeHidden3 }) {
@@ -34,7 +34,7 @@ function ExpProVid({ hidden, onChangeHidden3 }) {
             <div className="ExpProVid-inter-back1-bottom">
               <div className="ExpProVid-inter-back1-bottom-item1">
                 <video controls  className="ExpProVid-video">
-                  <source src={video} type="video/mp4" />
+                  {/* <source src={video} type="video/mp4" /> */}
                 </video>
               </div>
             </div>
