@@ -42,24 +42,26 @@ function Education() {
             </div>
             <div className="Education-inter-back1-bottom">
                 <div className="Education-inter-back1-bottom-item1">
-                    <div className="Education-inter-back1-bottom-item1-year"> Sept 2022</div>
+                    <div className="Education-inter-back1-bottom-item1-year">2023 - 2025 </div>
                     <div className="Education-inter-back1-bottom-item1-text">
-                    <div className="Education-inter-back1-bottom-item1-text12 "> Cycle d’ingénieur en informatique</div>
-                    <div className="Education-inter-back1-bottom-item1-text2"> Institut des Sciences et Techniques des Yvelines</div>
+                    <div className="Education-inter-back1-bottom-item1-text12 "> CYCLE D’INGÉNIEUR EN INFORMATIQUE</div>
+                    <div className="Education-inter-back1-bottom-item1-text12 "> EN APPRENTISSAGE 2ÈME ANNÉE </div>
+                    <div className="Education-inter-back1-bottom-item1-text2"> ESIEA, ingénieur·e·s d’un numérique utile</div>
                     </div>
                 </div>
                 <div className="Education-inter-back1-bottom-item2">
-                    <div className="Education-inter-back1-bottom-item1-year">2019 - 2022</div>
+                    <div className="Education-inter-back1-bottom-item1-year">2022 - 2023</div>
                     <div className="Education-inter-back1-bottom-item1-text">
-                    <div className="Education-inter-back1-bottom-item1-text12">Licence informatique et multimédia </div>
-                    <div className="Education-inter-back1-bottom-item1-text2">Institut supérieur des arts multimédia de La Manouba</div>
+                    <div className="Education-inter-back1-bottom-item1-text12">CYCLE D’INGÉNIEUR EN INFORMATIQUE </div>                  
+                      <div className="Education-inter-back1-bottom-item1-text12">1ÈRE ANNÉE </div>
+                    <div className="Education-inter-back1-bottom-item1-text2">Institut des Sciences et Techniques des Yvelines - ISTY</div>
                     </div>
                 </div>
                 <div className="Education-inter-back1-bottom-item3">
-                    <div className="Education-inter-back1-bottom-item1-year">2018 - 2019</div>
+                    <div className="Education-inter-back1-bottom-item1-year">2019 - 2022</div>
                     <div className="Education-inter-back1-bottom-item1-text">
-                    <div className="Education-inter-back1-bottom-item1-text12 "> Baccalauréat en mathématiques</div>
-                    <div className="Education-inter-back1-bottom-item1-text2">Lycée Beb El khadhra </div>
+                    <div className="Education-inter-back1-bottom-item1-text12 "> LICENCE EN INFORMATIQUE ET MULTIMÉDIA</div>
+                    <div className="Education-inter-back1-bottom-item1-text2">Institut Supérieur des Arts Multimédia de la Manouba - ISAM </div>
                     </div>
                 </div>
 

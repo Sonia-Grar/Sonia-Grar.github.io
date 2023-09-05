@@ -13,7 +13,7 @@
   }
   .Education-inter-container2{
     width: 25vw;
-    height: 33vh;
+    height: 50vh;
     position: absolute;
     border-radius: 20px;
     display: flex;
@@ -34,7 +34,7 @@
  
   .Education-inter-back1-top{
     width: 98.7%;
-    height: 15%;
+    height: 10%;
     background-color: #bfbfbf;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -49,7 +49,7 @@
   }
   .Education-inter-back1-bottom{
     width: 98.7%;
-    height: 85%;
+    height: 90%;
     background-color: #ffffff; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
